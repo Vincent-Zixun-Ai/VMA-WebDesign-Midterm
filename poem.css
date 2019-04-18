@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: Halogen;
+	src: url("Halogen.ttf");
+}
+
+@font-face {
+	font-family: "m1";
+	src: url("m1.TTF");
+}
+
+html {
+	width: auto;
+}
+
+body {
+	margin: 0;
+	background-color: #FBE0F2;
+}
+
+/*header*/
+.header {
+	width: auto;
+	height: 100px;
+	background-color: #FFB1DA;
+}
+.header_logo {
+	width: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.header_ul {
+	margin-left: 40px;
+	list-style-type: none;
+	position: absolute;
+	float: left;
+}
+.header_ul_li {
+	font-size: 40px;
+	font-family: Halogen;
+	margin-top: 30px;
+	margin-left: 35px;
+    border-right: 3px solid #F193C2;
+	padding-right: 35px;
+	float: left;
+}
+.header_ul_join {
+	font-size: 40px;
+	font-family: Halogen;
+	margin-top: 45px;
+	right: 2%;
+	padding-left: 35px;
+	border-left: 3px solid #F193C2;
+	position: absolute;
+}
+.header_ul li:hover {
+	color: red;
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+}
+a:link {
+	color: #000000;
+}
+/*header*/
+
+/*table*/
+.table {
+	margin: 5px;
+	padding: 20px;
+	margin-bottom: 100px;
+	border-top: 0px;
+	border-right: 20px dotted #FD86CE;
+	border-top-left-radius: 300px;
+	border-top-right-radius: 300px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-left: 20px dotted #FD86CE;
+}
+
+.table h1 {
+	font-size: 60px;
+	font-family: Halogen;
+}
+
+.table tr, th, td {
+	padding-top: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.table td h2{
+	font-size: 30px;
+	font-family: Halogen;
+}
+
+.table td h2:hover{
+	font-size: 30px;
+	color: #F43299;
+	font-style: italic;
+	font-family: Halogen;
+}
+
+#m {
+	margin: 0;
+	width: 119px;
+	height: 168px;
+	background-image: url("m_sticker_1.png");
+}
+
+#m:hover {
+	background-image: url("m_sticker_2.png");
+} 
+
+#s {
+	margin: 0;
+	width: 122px;
+	height: 173px;
+	background-image: url("s_sticker_1.png");
+}
+
+#s:hover {
+	background-image: url("s_sticker_2.png");
+} 
+
+#n {
+	margin: 0;
+	width: 141px;
+	height: 161px;
+	background-image: url("n_sticker_1.png");
+}
+
+#n:hover {
+	width: 141px;
+	height: 159px;
+	background-image: url("n_sticker_2.png");
+} 
+
+#y {
+	margin: 0;
+	width: 112px;
+	height: 161px;
+	background-image: url("y_sticker_1.png");
+}
+
+#y:hover {
+	background-image: url("y_sticker_2.png");
+} 
+
+#y:active {
+	background-image: url("y_sticker_2g.png");
+}
+/*table*/
